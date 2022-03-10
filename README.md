@@ -32,15 +32,9 @@ Every folder is going to have its structure, with a markdown file containing the
 
 ### Fundamentals
 
-#### Theory & Learning
+- [Fundamentals](fundamentals/README.md) ✍️
 
-- **Codecademy**: Introduction to JavaScript 📕
-- **Eloquent JavaScript**: Reading from Chapter 1 to Chapter 3 📕
-- **TheJSWay**: Reading to learn concepts 📕
-
-#### Practice
-
-- **Codewars**: @mpfdev - 6 kyu ✍️
+In this repo, I'm describing what I've been studying and how I'm practicing the building blocks of javascript language.
 
 ### BackEnd 
 ⌛
