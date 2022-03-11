@@ -8,7 +8,9 @@
       - [Arrow Function](#arrow-function)
   - [Control Flow](#control-flow)
     - [Conditional](#conditional)
-      - [If, Else if, Else](#if-else-if-else)
+      - [If - Statement](#if---statement)
+      - [If.. Else - Statements](#if-else---statements)
+      - [Logical Operators & Truth Table](#logical-operators--truth-table)
     - [Loops](#loops)
       - [For Loop](#for-loop)
       - [While Loop](#while-loop)
@@ -99,15 +101,58 @@ JavaScript runs code from top to bottom, which means it starts from the first li
 
 Are implemented when you need to perform different actions based on different conditions.
 
-#### If, Else if, Else
+#### If - Statement
 
-```javascript
-if(2 * 2 === 4) {
-    console.log('It is running!');
+```jsx
+let sleep = true;
+
+if(sleep) {
+	console.log('Time to sleep!);
 };
-
-> It is running!
 ```
+
+The condition **always** go inside the parentheses, that evaluates to `true` or `false`.
+
+#### If.. Else - Statements
+
+To add behavior to the `if` statement, we can add `else` statement. Since I said above, `if` the condition is `true` it’ll execute the `statement block` of code. If it´s `false` will execute the `else` statement.
+
+```jsx
+let sleep = true;
+
+sleep = false;
+
+if(sleep) {
+	console.log('Time to sleep');
+} else {
+	console.log('Only sleep when feels sleepy');
+}
+```
+
+#### Logical Operators & Truth Table
+
+What I said earlier?
+
+Conditions evaluates to `true` or `false` values. (Boolean)
+
+- && (AND)
+
+To evaluate `true`, both conditions **must be** `true`.
+
+- || (OR)
+
+Only **one** condition evaluates to `false`, when both conditions `false`. Otherwise all other conditions are `true`.
+
+- ≠ (NOT)
+
+The operator reverses, or negates the Boolean Value. If it’s `true` will be `false`.
+
+| Logical Operator | Meaning | Example              | Boolean Value |
+| :--------------: | :-----: | :------------------- | :------------ |
+|       `&&`       |   AND   | `(2 > 1) && (1 > 2)` | `false`       |
+|       `||`       |   OR    | `(2 > 1) || (1 > 2)` | `true`        |
+|       `!=`       |   NOT   | `!(2 > 1)`           | `false`       |
+
 
 ### Loops
 Interation statements that keep running until a condition is matched.
