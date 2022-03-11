@@ -17,3 +17,7 @@ Is advised to do Codecademy and read the Eloquent JavaScript in-between.
 
 - [Codewars: To learn how to solve problems](https://www.codewars.com/)
 
+[String](../fundamentals/String.md)
+
+- [String Methods - Comprehensive docs with String methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+

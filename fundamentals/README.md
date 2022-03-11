@@ -18,15 +18,15 @@
 
 ## Data Types
 
-| Data Type |                                                                                   | Example                           |
-| :-------: | :-------------------------------------------------------------------------------- | :-------------------------------- |
-|  Number   | Represents both integer and floating pointing numbers                             | `let n = 123;`                    |
-|  BigInt   | "Number" type for big numbers                                                     | `const bigInt = 12312312313132n;` |
-|  String   | Represents the characters                                                         | `let str = "Hello World";`        |
-|  Boolean  | Has only two values `true` or `false`                                             | `let isGreater = 2 > 1;`          |
-|   Null    | Represents the variable has no value, is empty                                    | `let age = null;`                 |
-| Undefined | When a variable has not value assinged                                            | `let age;`                        |
-|  Objects  | Special type of data type, different from above where they're called `primitives` |
+|      Data Type      |                                                                                   | Example                           |
+| :-----------------: | :-------------------------------------------------------------------------------- | :-------------------------------- |
+|       Number        | Represents both integer and floating pointing numbers                             | `let n = 123;`                    |
+|       BigInt        | "Number" type for big numbers                                                     | `const bigInt = 12312312313132n;` |
+| [String](String.md) | Represents the characters                                                         | `let str = "Hello World";`        |
+|       Boolean       | Has only two values `true` or `false`                                             | `let isGreater = 2 > 1;`          |
+|        Null         | Represents the variable has no value, is empty                                    | `let age = null;`                 |
+|      Undefined      | When a variable has not value assinged                                            | `let age;`                        |
+|       Objects       | Special type of data type, different from above where they're called `primitives` |
 
 ## Functions
 
@@ -147,12 +147,13 @@ Only **one** condition evaluates to `false`, when both conditions `false`. Other
 
 The operator reverses, or negates the Boolean Value. If it’s `true` will be `false`.
 
-| Logical Operator | Meaning | Example              | Boolean Value |
-| :--------------: | :-----: | :------------------- | :------------ |
-|       `&&`       |   AND   | `(2 > 1) && (1 > 2)` | `false`       |
-|       `||`       |   OR    | `(2 > 1) || (1 > 2)` | `true`        |
-|       `!=`       |   NOT   | `!(2 > 1)`           | `false`       |
+| Logical Operator | Meaning | Example                       | Boolean Value |
+| :--------------: | :-----: | :---------------------------- | :------------ |
+|       `&&`       |   AND   | `(2 > 1) && (1 > 2)`          | `false`       |
+|  `Double Pipes`  |   OR    | `(2 > 1) DoublePipes (1 > 2)` | `true`        |
+|       `!=`       |   NOT   | `!(2 > 1)`                    | `false`       |
 
+I'm writing double pipes, because of Markdown not interpretating the symbol well.
 
 ### Loops
 Interation statements that keep running until a condition is matched.
