@@ -21,3 +21,6 @@ Is advised to do Codecademy and read the Eloquent JavaScript in-between.
 
 - [String Methods - Comprehensive docs with String methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
+[Array](../fundamentals/Arrays.md)
+
+- [Array Methods - Comrehensive docs with Arrays methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
