@@ -105,3 +105,56 @@ console.log(anotherPhrase.replace('python', 'javascript'));
 ```
 
 1. Only acts on the first occurrence.
+
+# Learn with Challenges
+
+## 6 kyu - bread sandwiches
+
+```javascript
+function slicesToName(n) {
+  if(n <= 1 || !n || typeof n !== typeof 3) return null;
+  
+  let slices = []
+  
+  if(n % 2 !== 0) {
+    slices.push('bread');
+    for(let i = 1; i < n - 1; i += 2) {
+      slices.push('sandwich')
+    } 
+  } else {
+    for(let i = 0; i < n - 1; i += 2) {
+      slices.push('sandwich')
+    } 
+  }
+  
+  return slices.join(' ')
+}
+
+function nameToSlices(name) {
+  let slices = name.toString().split(' ');
+  let numOfSlices = 0;
+  
+  if(typeof name !== typeof 'string' || !name || slices.length <= 1) return null;
+  
+  if(slices[0] === 'bread') {
+      numOfSlices += 1;
+      for(let i = 1; i < slices.length; i++) {
+        if(slices[i] === 'sandwich') {
+          numOfSlices += 2;
+        } else {
+          return null
+        }
+    }
+  } else {
+    for(let i = 0; i < slices.length; i++) {
+      if(slices[i] === 'sandwich') {
+        numOfSlices += 2;
+      } else {
+        return null
+      }
+    }
+  }
+  
+  return numOfSlices;
+}
+```

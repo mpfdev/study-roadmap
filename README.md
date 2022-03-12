@@ -36,6 +36,9 @@ Every folder is going to have its structure, with a markdown file containing the
 
 In this repo, I'm describing what I've been studying and how I'm practicing the building blocks of javascript language.
 
+  - [Strings](fundamentals/String.md) 📕
+  - [Arrays](fundamentals/Arrays.md) 📕
+
 ### BackEnd 
 ⌛
 
