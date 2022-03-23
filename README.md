@@ -38,6 +38,7 @@ In this repo, I'm describing what I've been studying and how I'm practicing the 
 
   - [Strings](fundamentals/String.md) 📕
   - [Arrays](fundamentals/Arrays.md) 📕
+  - [Objects](fundamentals/Objects.md) 📕
 
 ### BackEnd 
 ⌛
