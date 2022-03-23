@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  max-width: 700px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+
+p {
+  font-size: 30px;
+}
