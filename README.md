@@ -16,10 +16,11 @@ My inspiration to create this repository is the #LearnInPublic, to be able to sh
 
   - [Table of Content](#table-of-content)
     - [How this repository works](#how-this-repository-works)
-    - [JavaScript:](#javascript)
-      - [Fundamentals](#fundamentals)
-      - [BackEnd](#backend)
-      - [FrontEnd](#frontend)
+    - [Fundamentals](#general)
+      - [JavaScript](#fundamentals-in-javascript)
+      - [Go](#fundamentals-in-go)
+    - [BackEnd](#backend)
+    - [FrontEnd](#frontend)
     - [Database](#database)
 
 
@@ -44,14 +45,14 @@ In this repo, I'm describing what I've been studying and how I'm practicing the 
 
 ### Fundamentals in Go
 
-- [Fundamentals]
+- Fundamentals
   - [Hello World](fundamentals/Go/hello-world.md) 📕
 
 ## BackEnd 
 
 - Fundamentals
   - [Ajax - API](backend/ajax-api.md) 📕
-    - [HTTP]() ✍️
+    - [HTTP](backend/http.md) ✍️
 
 - [Node]()
 
