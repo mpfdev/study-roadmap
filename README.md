@@ -44,7 +44,8 @@ In this repo, I'm describing what I've been studying and how I'm practicing the 
 
 ### Fundamentals in Go
 
-- [Fundamentals]()
+- [Fundamentals]
+  - [Hello World](fundamentals/Go/hello-world.md) 📕
 
 ## BackEnd 
 
