@@ -28,9 +28,9 @@ The structure is not set, yet. There is a high chance that I'm going to change i
 First, the Foundation folder will set the starting point to linear my understanding to get into full-stack development.
 Every folder is going to have its structure, with a markdown file containing the resources and a brief text about what I've learned.
 
-## JavaScript:
+## General:
 
-### Fundamentals
+### Fundamentals in JavaScript
 
 - [Fundamentals](fundamentals/README.md) ✍️
 
@@ -42,12 +42,20 @@ In this repo, I'm describing what I've been studying and how I'm practicing the 
   - [Promises](fundamentals/Promises.md) 📕
     - [Async](fundamentals/Async.md) 📕
 
-### BackEnd 
+### Fundamentals in Go
 
+- [Fundamentals]()
+
+## BackEnd 
+
+- Fundamentals
   - [Ajax - API](backend/ajax-api.md) 📕
     - [HTTP]() ✍️
 
-### FrontEnd 
+- [Node]()
+
+
+## FrontEnd 
 ⌛
 
 ## Database 
