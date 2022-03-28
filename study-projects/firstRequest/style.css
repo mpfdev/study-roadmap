@@ -1,0 +1,8 @@
+.shows {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div {
+  margin: 10px;
+}
