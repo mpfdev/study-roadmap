@@ -52,7 +52,9 @@ In this repo, I'm describing what I've been studying and how I'm practicing the 
 
 - Fundamentals
   - [Ajax - API](backend/ajax-api.md) 📕
-    - [HTTP](backend/http.md) ✍️
+    - [HTTP](backend/http.md) 📕
+  - [Fetch](backend/fetch.md) 📕
+    - [Axios](backend/axios.md) 📕
 
 - [Node]()
 
