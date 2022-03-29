@@ -17,7 +17,7 @@ const limitShows = (data) => {
 };
 
 const publishShows = (shows) => {
-  for (let show of shows) {
+  shows.forEach((show) => {
     const img = document.createElement('img');
     const title = document.createElement('h1');
     const div = document.createElement('div');
@@ -27,7 +27,7 @@ const publishShows = (shows) => {
     div.appendChild(title);
     div.appendChild(img);
     showsContainer.appendChild(div);
-  }
+  });
 };
 
 form.addEventListener('click', async (e) => {
@@ -37,6 +37,6 @@ form.addEventListener('click', async (e) => {
 
   //make the request
   const res = await axios.get(URL);
-  const shows = await limitShows(res.data);
+  const shows = limitShows(res.data);
   publishShows(shows);
 });
